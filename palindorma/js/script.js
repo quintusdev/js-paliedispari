@@ -1,5 +1,5 @@
 //RICHIESTA INSERIMENTO PAROLA ALL'UTENTE
-let parola = prompt('Inserisci una parola qualsiasi');
+let parola = prompt('Inserisci una parola qualsiasi').toLowerCase();
 
 //CREO LA PAROLA PALINDROMA
 
