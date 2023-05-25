@@ -44,13 +44,13 @@ console.log('Numero Utente: ' + num_utente);
 let somma = (num_pc + num_utente);
 console.log('Totale dei due numeri: ' + somma);
 
-//visualizzo chi ha vinto.
 
+//visualizzo chi ha vinto.
 if (scelta === PariDispari(somma)) {
     console.log('Hai vinto! Complimenti.');
 
 } else {
-    
+
     console.log('Mi dispiace! Hai Perso!.');
 }
 
